@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: gupt-chat-api
+    runtime: node
+    plan: starter
+    rootDir: server
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false
+      - key: CLIENT_ORIGIN
+        sync: false
+      - key: ROOM_TTL_HOURS
+        value: "24"
+      - key: MESSAGE_TTL_HOURS
+        value: "24"
+      - key: MAX_ROOM_MEMBERS
+        value: "50"

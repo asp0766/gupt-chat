@@ -1,0 +1,27 @@
+
+> gupt-chat-client@1.0.0 dev
+> vite --host 127.0.0.1
+
+
+  [32m[1mVITE[22m v6.4.3[39m  [2mready in [0m[1m297[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m3:55:29 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m3:55:30 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/App.jsx[22m
+[2m3:55:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/NameEntry.jsx[22m
+[2m3:55:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/RoomLobby.jsx[22m
+[2m3:55:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/MessageList.jsx[22m
+[2m3:55:34 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/ChatComposer.jsx[22m
+[2m3:55:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/ChatRoom.jsx[22m
+[2m3:57:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m3:57:45 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/MessageList.jsx[22m
+[2m3:57:46 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/ChatRoom.jsx[22m
+[2m4:00:50 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/utils.js[22m
+[2m4:01:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/ChatComposer.jsx[22m
+[2m4:01:24 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/components/ChatComposer.jsx (resolved id: C:/Users/asp07/OneDrive/Documents/GuptChat/client/src/components/ChatComposer.jsx) in C:/Users/asp07/OneDrive/Documents/GuptChat/client/src/components/ChatRoom.jsx. Does the file exist?
+[2m4:01:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/ChatComposer.jsx[22m
+[2m4:02:29 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m4:08:34 PM[22m [36m[1m[vite][22m[39m [32m.env changed, restarting server...[39m
+[2m4:08:34 PM[22m [36m[1m[vite][22m[39m server restarted.
+[2m4:12:36 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
