@@ -1,3 +1,9 @@
+import dns from "node:dns";
+
+// Temporary test
+dns.setServers(["10.17.237.127"]);
+console.log("Node DNS Servers:", dns.getServers());
+
 import { createServer } from 'node:http';
 import { Server } from 'socket.io';
 import { app } from './app.js';
@@ -11,12 +17,17 @@ const io = new Server(httpServer, {
   maxHttpBufferSize: 100_000,
   transports: ['websocket', 'polling']
 });
+
 registerSocketHandlers(io);
 
 async function start() {
-  // The database connection completes before the public listener accepts requests.
   await connectDatabase();
-  httpServer.listen(env.port, () => console.log(`Gupt Chat API listening on port ${env.port}`));
+  httpServer.listen(env.port, () =>
+    console.log(`Gupt Chat API listening on port ${env.port}`)
+  );
 }
 
-start().catch(error => { console.error('Startup failed:', error); process.exit(1); });
+start().catch(error => {
+  console.error("Startup failed:", error);
+  process.exit(1);
+});
